@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-
+import { courseObj } from "../utils/types"
 
 function Purchased() {
   const baseURL = "https://course-selling-tsx.vercel.app/";
@@ -31,10 +31,10 @@ function Purchased() {
     <div className="h-screen   grid grid-cols-1 md:grid-cols-2  lg:grid-cols-4  place-content-center gap-2 ">
       {
         purchased ? (
-          purchased.map((item) =>
+          purchased.map((item: courseObj, idx) =>
           (
             <div className="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow "
-              key={item._id}
+              key={idx}
             >
               <a href="">
                 <img className=" object-contain h-60 w-96 " src={item.imageLink} alt="course image" />

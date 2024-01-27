@@ -31,9 +31,9 @@ export type authResp = {
   statusText: String
 }
 
-type courseObj = {
+export type courseObj = {
   description: Number
-  imageLink: Number
+  imageLink: string
   price: Number
   published: boolean
   title: String
