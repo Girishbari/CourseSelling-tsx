@@ -35,7 +35,7 @@ const loadScript = (src: any) => {
 
 
 function ShowCourses() {
-  const baseURL = "https://server-rouge-phi.vercel.app/";
+  const baseURL = "https://course-selling-tsx.vercel.app/";
   const userData = useRecoilValue(userState);
   const [coursesList, setCoursesList] = useRecoilState(courseFilter);
   const [purchasedCourses, setPurchasedCourses] = useState(null);

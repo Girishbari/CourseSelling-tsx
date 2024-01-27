@@ -8,7 +8,7 @@ import { SignupRequest, authResp, userStateType } from "../utils/types";
 
 const HOC = (WrappedComponent: React.ComponentType<any>, entity: any) => {
   const someFun = (props: object) => {
-    const baseURL = "https://server-rouge-phi.vercel.app/";
+    const baseURL = "https://course-selling-tsx.vercel.app/";
     const dataRef = useRef<SignupRequest>({
       username: "",
       password: ""

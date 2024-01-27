@@ -4,7 +4,7 @@ import { useRecoilState } from "recoil"
 import { courseFilter } from "../store/atoms";
 
 export default function Filter() {
-  const baseURL = "https://server-rouge-phi.vercel.app/"
+  const baseURL = "https://course-selling-tsx.vercel.app/"
   const Languages = ['Nextjs', 'Java', 'Golang', 'Javascript', 'Python']
 
   const [coursesList, setCoursesList] = useRecoilState(courseFilter)

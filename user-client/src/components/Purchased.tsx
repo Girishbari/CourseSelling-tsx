@@ -3,7 +3,7 @@ import axios from "axios";
 
 
 function Purchased() {
-  const baseURL = "https://server-rouge-phi.vercel.app/";
+  const baseURL = "https://course-selling-tsx.vercel.app/";
 
   const [purchased, setPurchased] = useState([]);
 

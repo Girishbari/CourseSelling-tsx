@@ -7,7 +7,7 @@ import axios from "axios";
 
 export default function View() {
   const { id } = useParams();
-  const baseURL = "https://server-rouge-phi.vercel.app/";
+  const baseURL = "https://course-selling-tsx.vercel.app/";
 
 
   const handleBuy = async () => {

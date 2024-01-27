@@ -5,7 +5,7 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 
 export default function Pagination() {
-  const baseURL = "https://server-rouge-phi.vercel.app/";
+  const baseURL = "https://course-selling-tsx.vercel.app/";
 
   const [coursesList, setCoursesList] = useRecoilState(courseFilter);
   const [currentPage, setCurrentPage] = useState(1);
